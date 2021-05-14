@@ -3,12 +3,12 @@ En esta actividad deberán desarrollar un programa que contenga la clase “Pok�
  nombre, naturaleza, tipo, vida, ataque, defensa, velocidad  y nivel; y los métodos: subir nivel, presentación, suma de estadísticas,
  promedio de estadísticas. De la clase “Pokémon” deberán instanciar 5 objetos, desde consola se deberá poder visualizar los pokémon y activar sus métodos.
 */
+//Hacemos la clase Pokemon
 class Pokémon
 {
-    //EN UNA CLASE LO PRIMERO QUE TENEMOS QUE PONER ES EL CONSTRUTOR
+    //Añadimos los variables que estaremos recibiendo 
     constructor(nombre, naturaleza, tipo, vida, ataque, defensa,velocidad, nivel)
     {
-        //PONEMOS ; PORQUE NO SON PROPIEDADES NI METODOS, SON INSTRUCCIONES
         this.nombre=nombre;
         this.naturaleza=naturaleza;
         this.tipo=tipo;
@@ -18,13 +18,13 @@ class Pokémon
         this.velocidad=velocidad;
         this.nivel=nivel;
     }
-
+    //Creamos los metodos
     subirnivel()
     {
         if(this.nivel!=100)
         {
             this.nivel++;
-            console.log ('Su Pokémon ha subido a nivel'+ this.nivel);
+            console.log ('Su Pokémon ha subido a nivel '+ this.nivel);
 
             if(this.naturaleza === 'Audaz')
             {
@@ -52,9 +52,8 @@ class Pokémon
             console.log ('Tu Pokémon está en su nivel máximo, ya no puede subir de nivel');
         }
     }
-
     presentarse(){
-        console.log ('Hola me llamo '+ this.nombre +' soy tipo'+ this.tipo +' y estoy al nivel'+ this.nivel);
+        console.log ('Hola me llamo '+ this.nombre +' soy tipo '+ this.tipo +' y estoy al nivel '+ this.nivel);
     }
     sumaEstadistica(){
         let suma= this.vida+this.ataque+this.defensa+this.velocidad;
@@ -66,6 +65,7 @@ class Pokémon
         console.log (prom);
     }
 }
+//CREAMOS LOS POKEMONES
     const PIKACHU= new Pokémon('Pikachu','Osada','Eléctrico',200,150,250,100,20); 
     console.log(PIKACHU);
 
