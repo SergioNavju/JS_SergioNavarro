@@ -1,0 +1,54 @@
+@keyframes gesto
+{
+    0%{
+        left: 25%;
+        top: 40%;
+        width: 120px;
+        height: 100px;
+        border-radius: 50%;
+        box-shadow: 35px 4px 0 black;
+		transform: rotate(75deg);
+    }
+    100%{
+        left: 45%;
+        top: 60%;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        box-shadow: 35px 4px 0 black;
+        transform: rotate(75deg);
+    }
+}
+
+@keyframes gestodien
+{
+    0%{
+        left: 30.5%;
+        top: 42.3%;
+        width: 95px;
+        height: 97px;
+    
+        border-radius: 50%;
+    
+        box-shadow: 20px 3px 0 white;
+		    transform: rotate(73deg);
+    }
+    40%{
+        box-shadow: 20px 3px 0 rgb(255, 255, 255);
+    }
+    40.5%{
+        box-shadow: 20px 3px 0 rgba(255, 255, 255, 0.010);
+    }
+    100%{
+        left: 47%;
+        top: 64%;
+        width: 20px;
+        height: 14px;
+    
+        border-radius: 50%;
+    
+        box-shadow: 20px 3px 0 rgba(255, 255, 255, 0);
+		    transform: rotate(73deg);
+
+    }
+}

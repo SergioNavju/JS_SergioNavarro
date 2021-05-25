@@ -1,0 +1,510 @@
+/*= FUENTES -----------------------------*/
+@font-face{
+    font-family: "Anton";
+    src: url("../fonts/Anton-Regular.ttf");
+}
+
+/* = principal
+------------------------------------------*/
+body
+{
+	background-color: rgba(0, 0, 0, 0.900);
+}
+#creadores{
+  position: absolute;
+	left: 0%;
+	top: 100%;
+	width: 100%;
+	height: 20%;
+	background-color: rgba(73, 71, 70, 0.781);
+}
+
+/* = padre
+------------------------------------------*/
+#contenedor
+{
+	position: absolute;
+	left: 18%;
+	top: 12%;
+	width: 60%;
+	height: 70%;
+	padding: 30px;
+	background-color: rgb(255, 255, 255);
+}
+
+/* = hijos
+------------------------------------------*/
+#personalizar
+{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 33.3%;
+	height: 70%;
+	background-color: rgb(52, 36, 194);
+  
+}
+ #animacion
+{
+	position: absolute;
+	left: 0%;
+	top: 70%;
+	width: 100%;
+	height: 30%;
+	background-color: rgb(176, 36, 194);
+} 
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: "Anton";
+  color: #3b3a33;
+}
+h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: "Anton";
+  color: rgb(238, 217, 178);
+}
+p{
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Anton";
+}
+#cont2
+{
+	position: absolute;
+	left: 33.3%;
+	top: 0%;
+	width: 66.7%;
+	height: 70%;
+  border: solid;
+	background-color: rgb(236, 235, 209);
+}
+
+/* = PERSONALIZACION
+-------------------------------------------------------------------------------------*/
+/* = CABELLO
+------------------------------------------*/
+#cabello 
+{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 50%;
+	background-color:rgb(47, 47, 47);
+  border: solid;
+}
+#restaurar{
+  position: relative;
+	left: 103%;
+	top: 38.5%;
+	width: 20%;
+	height: 33%;
+  z-index: 1000000;
+	background-color:wheat;
+  border: solid;
+  cursor: pointer;
+}
+
+#cabe1{
+  position: relative;
+  width: 48%;
+  height: 30%;
+  left:1% ;
+  background: rgb(108,47,7);
+  background: linear-gradient(90deg, rgba(108,47,7,1) 0%, rgba(50,26,11,1) 65%, rgba(9,8,8,1) 100%);
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+#cabe2{
+  position: relative;
+  width: 48%;
+  height: 30%;
+  left:51% ;
+  bottom: 30%;
+  background:linear-gradient(224.9deg, #FDFCF9 -4.02%, #E1DAB4 6.38%, rgba(255, 255, 255, 0) 33.69%), #6B3909;
+  border-radius: 10px;
+}
+
+#cabe3{
+  position: relative;
+  width: 48%;
+  height: 30%;
+  left:1% ;
+  bottom: 25%;
+  background: linear-gradient(180deg, #E1DAB4 11.36%, #FDFCF9 27.98%, rgba(255, 255, 255, 0) 60.53%), #D9A918;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#cabe4{
+  position: relative;
+  width:48%;
+  height: 30%;
+  left:51% ;
+  bottom: 55%;
+  background: linear-gradient(180deg, #FDFCF9 13.44%, rgba(225, 218, 180, 0.41) 34.9%, rgba(255, 255, 255, 0) 87.53%), #00FFB3;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* = TEZ
+------------------------------------------*/
+#tez 
+{
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	width: 100%;
+	height: 50%;
+  border: solid;
+	background-color: rgb(47, 47, 47);
+  
+}
+
+#tez1{
+  position: relative;
+  width: 48%;
+  height: 30%;
+  left:1% ;
+  background-color: #fad6a5;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+#tez2{
+  position: relative;
+  width: 48%;
+  height: 30%;
+  left:51% ;
+  bottom: 30%;
+  background-color: #A37337;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#tez3{
+  position: relative;
+  width: 48%;
+  height: 30%;
+  left:1% ;
+  bottom: 25%;
+  background-color: #EDBD56;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#tez4{
+  position: relative;
+  width:48%;
+  height: 30%;
+  left:51% ;
+  bottom: 55%;
+  background-color: #aab818;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* = ANIMACION
+---------------------------------------------------------------------------------------*/
+#parpadea 
+{
+
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 33.3%;
+	height: 100%;
+  border: solid;
+	background-color: rgb(126, 14, 14);
+  cursor: pointer;
+}
+
+#sorprende 
+{
+	position: absolute;
+	left: 33.3%;
+	top: 0%;
+	width: 33.3%;
+	height: 100%;
+  border: solid;
+	background-color: rgb(126, 14, 14);
+  cursor: pointer;
+  
+}
+
+#llora 
+{
+	position: absolute;
+	left: 66.6%;
+	top: 0%;
+	width: 33.4%;
+	height: 100%;
+  border: solid;
+	background-color: rgb(126, 14, 14);
+  cursor: pointer;
+}
+
+/* = PEINADO
+------------------------------------------*/
+#peinado {
+   position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      right: 10%;
+
+     width: 250px;
+     height: 100px;
+
+     border-radius: 0 40% / 45% 75%;
+
+     background: radial-gradient(circle, rgba(108,47,7,1) 0%, rgba(52,24,15,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+/* =CARA
+------------------------------------------*/
+#cara 
+{
+	position: absolute;
+	top: 10%;
+	left: 35%;
+}
+
+#rostro{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 200px;
+  height: 150px;
+
+  background: #fad6a5;
+}
+
+#barbilla{
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+		
+     width: 200px; 
+     height: 100px; 
+
+     background: #fad6a5;
+     border-radius: 0 0 90px 90px;
+}
+
+/* = BOCA
+------------------------------------------*/
+
+#fondodientes 
+{
+    position: absolute;
+    z-index: 10000;
+    margin-left: auto;
+    margin-right: auto;
+    
+    left: 25%;
+    top: 40%;
+    width: 120px;
+    height: 100px;
+
+    border-radius: 50%;
+    
+    box-shadow: 35px 4px 0 black;
+		transform: rotate(75deg)
+}
+
+#dientes {
+    position: absolute;
+    z-index: 10000;
+    margin-left: auto;
+    margin-right: auto;
+    
+    left: 30.5%;
+    top: 42.3%;
+    width: 95px;
+    height: 97px;
+
+    border-radius: 50%;
+		transform: rotate(73deg);
+    box-shadow: 20px 3px 0 white;
+    animation: hola;
+}
+
+.boquita{
+
+}
+
+/* = OJOS
+------------------------------------------*/
+.parpA
+{
+  position: absolute;
+  /* left es arriba, top es derecha-izquierda */
+  left: 0%;
+	right: 0%;
+  top: 0%;
+  z-index: 10000 ;
+  width: 3px;
+  height: 50px;
+  background: #fad6a5;
+	border-radius: 2em 2em 2em 2em;
+	background-color: #fad6a5;
+	border-bottom-color: black;
+	
+}
+
+#der
+{
+  position: absolute;
+      z-index: 10000;
+      margin-left: auto;
+      margin-right: auto;
+      
+      left: 10%;
+      top: 37%;
+
+     width: 100px;
+     height: 50px;
+     border-radius: 50%;
+     background: white;
+     transform: rotate(90deg);
+} 
+
+#izq
+{
+    position: absolute;
+      z-index: 10000;
+      margin-left: auto;
+      margin-right: auto;
+      
+      left: 45%;
+      top: 37%;
+
+     width: 100px;
+     height: 50px;
+     border-radius: 50%;
+     background: white;
+     transform: rotate(90deg);
+}
+
+.pup
+{
+    position: absolute;
+      z-index: 100;
+      margin-left: auto;
+      margin-right: auto;
+      
+      left: 30%;
+      top: 7%;
+
+     width: 25px;
+     height: 70px;
+     border-radius: 1em 1em 1em 1em;
+     background: black;
+     transform: rotate(90deg); 
+   
+}
+
+#ojollorar1
+{
+  position: absolute;
+      z-index: 10000;
+      margin-left: auto;
+      margin-right: auto;
+      
+      left: 30%;
+      top: 0%;
+
+     width: 100px;
+     height: 60px;
+     border-radius: 50%;
+     background: radial-gradient(41.22% 41.22% at 49.88% 49.82%, #FDFCF9 3.05%, #EBE6CE 44.27%, rgba(255, 255, 255, 0) 87.53%), #FF0000;
+     display: none;
+}
+ 
+.parp
+{
+  position: absolute;
+      z-index: 10000;
+      margin-left: auto;
+      margin-right: auto;
+      
+      left: 60%;
+      top: 15%;
+
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background: #fad6a5;
+     transform: rotate(90deg);
+}
+
+/* = CUERPO
+------------------------------------------*/
+#cuello
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  bottom: -75%;
+
+  width: 70px;
+  height: 150px;
+
+  background: #fad6a5;
+}
+
+#ropa
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  top: 55%;
+	left: 3%;
+  width: 250px;
+  height: 150px;
+
+  background: darkblue;
+  border-radius: 30px 30px 0px 0px;
+}
+
+/* = EXTRAS
+------------------------------------------*/
+#lluvia{
+  left: -100%;
+  top: -70%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 10%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: none;
+  
+}
+
+#gota{
+      position: absolute;
+      z-index: 10000;
+      margin-left: auto;
+      margin-right: auto;
+      
+      left: 40%;
+      top: 70%;
+
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     background: rgb(127, 127, 216);
+
+     animation: hola;
+     display: none;
+}

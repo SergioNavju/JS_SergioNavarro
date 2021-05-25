@@ -1,0 +1,64 @@
+@keyframes parpado
+{
+    0%
+		{
+      
+			width: 10px;
+    }
+		23%
+		{
+  		width: 20px;
+    }
+		45%
+		{
+  		width: 30px;
+    }
+		67%
+		{
+  		width: 45px;
+    }
+		89%
+		{
+  		width: 50px;
+    }
+    100%
+		{
+  		width: 100px;
+    }
+}
+@keyframes pupila
+{
+    0%
+		{
+			height: 65px;
+    }
+		23%
+		{
+			height: 46px;
+			top: 30%;
+    }
+		45%
+		{
+  		height: 35px;
+			top: 43%;
+			left: 34%;
+    }
+		67%
+		{
+  		height: 35px;
+			top: 50%;
+			left: 45%;
+    }
+		89%
+		{
+  		height: 35px;
+			top: 50%;
+			left: 50%;
+    }
+    100%
+		{
+  		width: 0px;
+			top: 50%;
+			left: 50%;
+    }
+}
