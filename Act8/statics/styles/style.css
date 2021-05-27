@@ -1,0 +1,52 @@
+/* =STRUCTURE AND GENERAL
+---------------------------------------------------- */
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    background-color:rgb(61, 60, 60);
+}
+h1{
+    color: rgb(236, 230, 230) ;
+    text-align: center;
+}
+h2{
+    color: rgb(167, 161, 161) ;
+}
+/* =DIBUJADORES
+-------------------------------------------------- */
+#dibujador{
+    background-color:rgb(43, 35, 35);
+    display: grid;
+    grid-template-columns: 500px,500px;
+    grid-template-rows: 500px, 700px;
+    align-items: center;
+}
+
+/* =OPCIONES
+-------------------------------------------------- */
+#opciones{
+    justify-self: center;
+    align-self: start;
+    grid-row-start:2 ;
+    grid-row-end: 2;
+    grid-column-start:2;
+    grid-column-start:2;
+}
+
+/* = LIENZO
+-------------------------------------------------- */
+#generador{
+    justify-self: center;
+    background-color: rgb(0, 0, 0);
+    grid-row-start:2 ;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-start: 1;
+}
+
+.ocultar{
+    display: none !important;
+}
+

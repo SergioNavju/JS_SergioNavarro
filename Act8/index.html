@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./statics/styles/style.css">
+    <script src="./dynamics/jquery-3.6.0.min.js"></script>
+    <title>Dibuja dibujos</title>
+</head>
+    <body>
+        <h1>DIBUJADOR DE DIBUJOS</h1>
+        <div id="dibujador">
+            <div id="opciones">
+                <div id="colores">
+                    <h2>Color de Fondo</h2>
+                    <input type="color" name="color" id="selectcolor1" >
+                    <br><br>
+                </div>
+                
+
+                <h2>Tipo de color de fondo</h2>
+                <select id="tipocolor" name="tipocolor">
+                    <option value="0">Solido</option>
+                    <option value="1">Degradado Lineal</option>
+                    <option value="2">Degradado Radial</option>
+                </select>
+                <br><br>
+
+                <h2>Figuras</h2>
+                <select id="tipofigura" name="tipofigura">
+                    <option value="0">Estrella</option>
+                    <option value="1">Mickey Mouse</option>
+                    <option value="2">Caballo de Ajedrez</option>
+                </select>
+                <br><br>
+
+                <button id="enviar">¡¡Dibujar!!</button>
+
+            </div>
+            <br><br>
+            <canvas id="generador" width="500" height="500"></canvas>
+        </div>
+        <script src="./dynamics/script.js"></script>
+    </body>
+</html>
