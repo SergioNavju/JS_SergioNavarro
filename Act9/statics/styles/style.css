@@ -1,0 +1,48 @@
+@font-face{
+    font-family:"PressStart2P";
+    src: url("../fonts/PressStart2P-Regular.ttf");
+}
+body{
+    background-color:rgb(24, 23, 23);
+}
+h1{
+  font-family: "PressStart2P";
+  text-align: center;
+  font-size: 25px;
+  color: yellow;
+}
+p{
+  font-family: "PressStart2P";
+  font-size: 15px;
+  text-align: center;
+  color: wheat;
+}
+canvas{
+  justify-self: center;
+  border: 1px solid;
+  background-color:rgb(70, 66, 66);
+}
+#tableroJuego{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows:30px,900px;
+  align-items: center;
+  background-color:rgb(24, 23, 23);
+}
+#titulo{
+  font-family: "PressStart2P";
+  font-size: 50px;
+  text-align: center;
+  color: rgb(255, 187, 0);
+}
+#specs{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#puntaje{
+  display: flex;
+  flex-wrap: wrap;
+  flex: column;
+  justify-self: center;
+}
